@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height:500px;
+        background-color: red;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    p{
+        font-size:40px;
+        text-align:center;
+    }
+</style>
+<body>
+    <div class="box day" id="container">
+        <p>red</p>
+        <p>this is red color</p>
+    </div>
+    <button type="button" onclick="clickhere('red')">Red</button>
+    <button type="button" onclick="clickhere('green')">Green</button>
+    <button type="button" onclick="clickhere('yellow')">Yellow</button>
+    <button type="button" onclick="clickhere('blue')">Blue</button>
+    <script src="day4.js"></script>
+</body>
+</html>

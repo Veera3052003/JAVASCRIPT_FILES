@@ -1,0 +1,99 @@
+#google_translate_element{
+    float:right;
+}
+
+#container{
+    background-image: url('./background_image.avif');
+    background-size: contain;
+}
+
+.header{
+    text-align: center;
+}
+
+.slogon{
+    font-size: 24px;
+    margin-bottom: -20px;
+    text-align:center;
+}
+
+.name_board{
+    display: flex;
+    justify-content: center;
+    margin-top: -26px;
+    height: 140px;
+}
+
+.logo{
+    width: 136px;
+    height: 132px;
+    border-radius: 50%;
+}
+
+.shop_name{
+    font-size:100px;
+    margin-top: 9px;
+}
+
+.d-flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    background-color: cadetblue;
+    width:250px;
+    margin:20px;
+    padding:26px;
+    box-shadow: 5px 5px 5px rgb(129, 106, 106);
+    border-radius: 12px;
+}
+
+.name_style{
+    font-size:35px;
+    text-align: center;
+}
+
+.desc_style{
+    font-size:20px;
+    text-align: justify;
+    height:120px;
+}
+
+.quantity_style{
+    font-size:30px;
+    text-align:center;
+}
+
+.image_style{
+    height: 190px;
+    width: 199px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 12px;
+}
+
+.name,.price_details{
+    margin-bottom: 10px;
+}
+
+/* .desc{
+    height:385px;
+} */
+
+.image{
+    margin-left: -26px;
+    margin-top: -26px;
+}
+
+.button{
+    text-align:center;
+}
+
+.buy_now_button{
+    width: 115px;
+    height: 40px;
+    border-radius:13px;
+    box-shadow: 5px 5px 5px gray;
+}

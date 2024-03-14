@@ -1,0 +1,85 @@
+.header{
+    text-align: center;
+}
+
+.slogon{
+    font-size: 21px;
+    margin-bottom: 7px;
+    text-align:center;
+}
+
+.name_board{
+    display: flex;
+    justify-content: center;
+    margin-top: -26px;
+    height: 140px;
+}
+
+.logo{
+    width: 136px;
+    height: 132px;
+    border-radius: 50%;
+}
+
+.shop_name{
+    font-size:70px;
+    margin-top: 9px;
+}
+
+.d-flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    background-color: cadetblue;
+    width:250px;
+    margin:20px;
+    padding:26px;
+}
+
+.name_style{
+    font-size:28px;
+    text-align: center;
+}
+
+.desc_style{
+    font-size:20px;
+    text-align: justify;
+    height:294px;
+}
+
+.quantity_style{
+    font-size:26px;
+    text-align:center;
+}
+
+.image_style{
+    height: 190px;
+    width: 199px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.name,.price_details{
+    margin-bottom: 10px;
+}
+
+/* .desc{
+    height:385px;
+} */
+
+.image{
+    margin-left: -26px;
+    margin-top: -26px;
+}
+
+.button{
+    text-align:center;
+}
+
+.buy_now_button{
+    width: 115px;
+    height: 43px;
+}
